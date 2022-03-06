@@ -41,7 +41,7 @@ public class BankTest{
 			}
             
             else{  
-                System.out.println("Invalid option ... try again");
+                System.out.println("Invalid option ... try again!");
             }
         
         }while(option != 4);
