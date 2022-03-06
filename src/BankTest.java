@@ -36,7 +36,7 @@ public class BankTest{
             }
 
             else if(option ==4){
-				System.out.println("Goodbye... Have a nice day");
+				System.out.println("Goodbye... Have a nice day!");
 				System.out.println("Program developed by Gia Bao Tran");
 			}
             
