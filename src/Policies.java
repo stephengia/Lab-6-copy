@@ -1,5 +1,7 @@
 /** Contains constaints that represents fees. It provide needed number to let updateBalance method work.
  * @author Gia Bao Tran
+ * @version 1.0
+ * @since 15.0.2
  */
 
  
