@@ -15,7 +15,7 @@ public class BankTest{
         /**Let user input bank name and size */
         System.out.printf("Enter the name of the bank: ");
         String name = keyboard.next();
-        System.out.printf("How many account holder do you have: ");
+        System.out.printf("How many account holders do you have: ");
         int size =keyboard.nextInt();
         Bank account = new Bank(name,size);
 
