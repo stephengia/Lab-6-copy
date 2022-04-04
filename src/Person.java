@@ -37,6 +37,8 @@ public class Person {
 
     /**
      * This method print out account holder basic infomation in table format
+     * @param nothing
+     * @return nothing
      */
     public void printInfo(){
         System.out.printf("%17s|%16s|%21s|", firstName+" "+lastName, email, phoneNumber);

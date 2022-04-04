@@ -6,7 +6,10 @@
 
 public class Saving extends Account implements Policies{
 
-/** Each time this method is called , it adds user's balance a saving interest amount */
+/** Each time this method is called , it adds user's balance a saving interest amount 
+ * @param nothing
+ * @return nothing
+*/
     @Override
     public void updateBalance() {
         accountBalance = accountBalance + accountBalance*interestFee;

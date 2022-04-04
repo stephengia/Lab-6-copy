@@ -6,7 +6,10 @@
 
 public class Chequing extends Account implements Policies{
 
-    /** Each time this method is callled, it automatically deduct an amount from the balance */
+    /** Each time this method is callled, it automatically deduct an amount from the balance 
+     * @param nothing
+     * @return nothing
+    */
     @Override
     public void updateBalance() {
         accountBalance = accountBalance -checquingFee;
